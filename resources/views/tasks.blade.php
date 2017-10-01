@@ -63,9 +63,9 @@
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
 
-                                    <button>刪除任務</button>
+                                    <button><i class="fa fa-trash"></i>刪除任務</button>
                                 </form>
-                            </td>                            </td>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>
